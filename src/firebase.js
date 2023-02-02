@@ -1,8 +1,8 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDg1T-_zaDA8R_WXtwVN0-JZUwK41GJSJw",
-    authDomain: "netflix-clone-14daa.firebaseapp.com",
-    projectId: "netflix-clone-14daa",
-    storageBucket: "netflix-clone-14daa.appspot.com",
-    messagingSenderId: "157036939214",
-    appId: "1:157036939214:web:03b1660ac7cde2e4cc0d9f"
+    apiKey: process.env.FIREBASE_API_KEY,
+    authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.FIREBASE_PROJECT_ID,
+    storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.FIREBASE_APP_ID
 };
