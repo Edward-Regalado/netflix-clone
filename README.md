@@ -1,46 +1,37 @@
-# Getting Started with Create React App and Redux
+# Netflix Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+A clone of the popular streaming platform Netflix, built with React, Redux, Firestore, Google Authentication, and TMDB Movies API.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Before you start, make sure you have npm installed on your system. You can check by running the following command in your terminal: `npm -v`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installing
 
-### `npm test`
+1. Clone the repository to your local machine: `git clone https://github.com/your_username/netflix-clone.git`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory: `cd netflix-clone`
 
-### `npm run build`
+3. Install the required dependencies: `npm install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Add a `.env` file to the root of the project with the following environment variables: `REACT_APP_API_KEY=your_tmdb_api_key`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Start the development server: `npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Your browser should automatically open the app at `http://localhost:3000/`. If it doesn't, you can manually navigate to that address.
 
-### `npm run eject`
+### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[React](https://reactjs.org/) - A JavaScript library for building user interfaces
+[Redux](https://redux.js.org/) - A predictable state container for JavaScript apps
+[Firestore](https://firebase.google.com/docs/firestore) - A NoSQL document database from Firebase
+[Google AuthenticatorAssertionResponse](https://developers.google.com/identity/protocols/OAuth) - A secure authentication system from Firebase
+[TMDB Movies](https://www.themoviedb.org/?language=en-US) - An API for retrieving movie data
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Credits
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project was inspired by the tutorial series from Sonny Sangha on YouTube [here](https://www.youtube.com/watch?v=HW5roUF2RLg). Thank you, Sonny, for your excellent work and inspiration!
