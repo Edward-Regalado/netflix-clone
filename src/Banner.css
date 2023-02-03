@@ -6,9 +6,11 @@
 }
 
 .banner-contents {
-    margin-left: 30px;
-    padding-top: 140px;
-    height: 190px;
+    /* margin-left: 30px; */
+    padding-left: 30px;
+    padding-top: 150px;
+    /* height: 190px; */
+    /* border: solid 2px red; */
 }
 
 .banner-title {
@@ -27,6 +29,7 @@
 }
 
 .banner-fadeBottom {
+    border: 2px solid green;
     height: 7.4rem;
     background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
 }

@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
 
-  const user = null;
+  const user = true;
 
   return (
     <div className="app">
